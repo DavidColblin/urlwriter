@@ -1,0 +1,20 @@
+RewriteEngine on
+
+# Resource: http://www.besthostratings.com/articles/block-users-by-ip.html
+
+#the ahref="nana" will be redirected to
+#the page new.html with url nana.html
+RewriteRule ^nana\.html$ new.html
+
+#RewriteRule ^products/([0-9][0-9])/$ /productinfo.php?prodID=$1
+
+#This will match any URLs that start with ‘products/’, followed by any two digits,
+# followed by a forward slash. 
+#For example, this rule will match an URL like products/12/ or products/99/, and redirect it to the PHP page.
+
+Options +Indexes
+#Disables directory listing, -Indexes disables
+
+AddType application/x-httpd-php .david
+#serve .david as .php
+

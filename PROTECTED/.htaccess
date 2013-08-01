@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile ".htpasswd"
+AuthName 'Enter valid username and password!'
+require valid-user

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>htaccess tests</title>
+        <meta charset="utf-8">
+        <meta name="description" content="HTML5 Starter Pack by Sickdesigner.com">
+        <link rel="Shortcut Icon" type="image/ico" href="img/favicon.png">
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/queries/netbooks-tablets.css" type="text/css" media="screen and (max-width: 1007px)" />            
+            
+        <script type="text/javascript" src="js/html5.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/cufon-yui.js"></script>        
+            
+        <!--[if IE 7]><link rel="stylesheet" href="css/ie/ie7.css" type="text/css" media="screen"><![endif]-->
+        <!--[if lt IE 7]><link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="screen"><![endif]-->
+    </head>
+    <body>
+        <div id="wrap">
+            <header>
+                <div class="inside">
+                    <nav>
+<center><h1> The PHP showed as ASP extension</h1></center> 
+                    </nav>
+                </div>
+            </header>
+            <article>
+                <section>
+                    <div class="inside">
+                <a href="nana.html"> Test <code>'nana.html'</code> url</a> <br/>
+		<a href="protected/">Go to protected Folder </a>
+                </section>  
+            </article>
+            <aside>
+                <div class="inside">
+			Aside
+                </div>
+            </aside>
+        </div>
+        <footer>
+            <div class="inside">
+			<a href="http://www.besthostratings.com/articles/block-users-by-ip.html">.htaccess tutorial/easy library/Resource </a>
+            </div>
+        </footer>        
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script type="text/javascript" src="fonts/Lobster.font.js"></script>
+        <script type="text/javascript" src="fonts/Raleway.font.js"></script> 
+    </body>
+</html>
